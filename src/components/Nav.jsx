@@ -61,7 +61,7 @@ const togglemode=()=>{
             </li>
           ))}
         </ul>
-        <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
+        <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24 dark:text-white'>
           <a href='/'>Sign in</a>
           <span>/</span>
           <a href='/'>Explore now</a>

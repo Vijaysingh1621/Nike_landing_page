@@ -1,8 +1,12 @@
 import { star } from "../assets/icons";
 
 const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
+
   return (
-    <div className='flex justify-center items-center flex-col'>
+    
+ 
+    
+    <div className='flex justify-center items-center flex-col '>
       <img
         src={imgURL}
         alt='customer'
@@ -23,7 +27,9 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
         {customerName}
       </h3>
     </div>
+    
   );
+  
 };
 
 export default ReviewCard;
