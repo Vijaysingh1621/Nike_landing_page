@@ -38,13 +38,13 @@ const CustomerReviews = () => {
         className="mySwiper"
       >
         {reviews.map((review, index) => (
-          <SwiperSlide key={index} className="mt-10 mb-10">
+          <SwiperSlide key={index} className="mt-10 mb-10 dark:text-gray-300">
             <ReviewCard
               imgURL={review.imgURL}
               customerName={review.customerName}
               rating={review.rating}
               feedback={review.feedback}
-              className="dark:text-gray-300"
+              
             />
           </SwiperSlide>
         ))}
